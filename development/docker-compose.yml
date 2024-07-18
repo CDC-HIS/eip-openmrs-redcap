@@ -1,0 +1,9 @@
+services:
+  eip-openmrs-redcap:
+    container_name: ozone-eip-openmrs-redcap
+    env_file:
+      - .env
+    image: mekomsolutions/eip-client:2.2.0-SNAPSHOT
+    # Mount the JAR file from the target directory to the container
+    volumes:
+      - ../openmrs-redcap/target/eip-openmrs-redcap-1.0.0-SNAPSHOT.jar:/eip-client/routes/eip-openmrs-redcap-1.0.0-SNAPSHOT.jar

@@ -1,2 +1,4 @@
-# EIP Openmrs REDCap
+# EIP OpenMRS REDCap
+
 Apache camel routes that integrate OpenMRS and REDCap
+
