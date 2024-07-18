@@ -4,7 +4,7 @@ import org.apache.camel.LoggingLevel;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("eip.ettors-openmrs.routes.EncounterRouter")
 public class EncounterRouter extends RouteBuilder {
 
     @Override

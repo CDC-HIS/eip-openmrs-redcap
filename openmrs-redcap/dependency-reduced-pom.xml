@@ -33,9 +33,6 @@
                   <include>commons-io:commons-io</include>
                   <include>org.liquibase:*</include>
                   <include>ca.uhn.hapi.fhir:*</include>
-                  <include>org.jetbrains.kotlin:*</include>
-                  <include>com.squareup.okhttp3:okhttp</include>
-                  <include>com.squareup.okio:*</include>
                   <include>com.fasterxml.jackson.core:jackson-databind</include>
                   <include>org.apache.httpcomponents:*</include>
                   <include>com.google.guava:*</include>
