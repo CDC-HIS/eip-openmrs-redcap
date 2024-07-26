@@ -27,6 +27,8 @@
                   <include>com.ozonehis.eip:*</include>
                   <include>com.ozonehis.camel:*</include>
                   <include>org.openmrs.eip:*</include>
+                  <include>org.ephi.cbs:*</include>
+                  <include>org.json:*</include>
                   <include>org.apache.camel:camel-fhir</include>
                   <include>org.apache.camel:camel-fhir-api</include>
                   <include>org.apache.commons:*</include>
@@ -58,12 +60,6 @@
     </plugins>
   </build>
   <dependencies>
-    <dependency>
-      <groupId>org.ephi.cbs</groupId>
-      <artifactId>openmrs-redcap-mapper</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
