@@ -32,6 +32,11 @@
             <artifactId>camel-openmrs-fhir</artifactId>
             <version>${camel.openmrs.fhir.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -53,6 +58,8 @@
                                     <include>com.ozonehis.eip:*</include>
                                     <include>com.ozonehis.camel:*</include>
                                     <include>org.openmrs.eip:*</include>
+                                    <include>org.ephi.cbs:*</include>
+                                    <include>org.json:*</include>
                                     <include>org.apache.camel:camel-fhir</include>
                                     <include>org.apache.camel:camel-fhir-api</include>
                                     <include>org.apache.commons:*</include>

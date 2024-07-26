@@ -1,0 +1,155 @@
+{
+  "redcap_repeat_instrument": "l_lcbs_sentinel_events",
+  "sentinel_events": [
+    {
+      "key": "lcbs_visit_date",
+      "label": "Visit Date",
+      "description": "Visit Date",
+      "data": {
+        "source": "Observation",
+        "code": "5c118396-52dc-4cac-8860-e6d8e4a7f296",
+        "dataType": "Date",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_hiv_enrollment",
+      "label": "HIV Enrollment Date",
+      "description": "HIV Confirmed Date",
+      "data": {
+        "source": "Observation",
+        "code": "160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "dataType": "Date",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_art_start_date",
+      "label": "ART start date",
+      "description": "ART start date",
+      "data": {
+        "source": "Observation",
+        "code": "ae329187-6232-4142-aa91-22c85bc8e5b5",
+        "dataType": "Date",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_regimen",
+      "label": "Regimen",
+      "description": "Regimen",
+      "data": {
+        "source": "Observation",
+        "code": "6d7d0327-e1f8-4246-bfe5-be1e82d94b14",
+        "dataType": "Coded",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_regimen_change",
+      "label": "Regimen Change",
+      "description": "Regimen Change",
+      "data": {
+        "source": "Observation",
+        "code": "f5c27f2a-a2a3-4e91-91c9-488f4f4eb3b6",
+        "dataType": "IsNotEmpty",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_reg_chg_type",
+      "label": "Regimen Change Type",
+      "description": "Regimen Change Type",
+      "data": {
+        "source": "Observation",
+        "code": "f5c27f2a-a2a3-4e91-91c9-488f4f4eb3b6",
+        "dataType": "Coded",
+        "dataMapping": [
+          {
+            "code": "8825ff0d-de38-4525-8130-86738c70c599",
+            "value": "1"
+          },
+          {
+            "code": "94747e61-6350-4382-817a-265f18501758",
+            "value": "2"
+          }
+        ],
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_weight",
+      "label": "Weight",
+      "description": "Weight",
+      "data": {
+        "source": "Observation",
+        "code": "4ab93a3c-4373-4b9b-9268-5ff0641cc242",
+        "dataType": "Text",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_height",
+      "label": "Height",
+      "description": "Height",
+      "data": {
+        "source": "Observation",
+        "code": "f980e9d2-e85c-483e-ae93-980623114e6f",
+        "dataType": "Numeric",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_bmi",
+      "label": "BMI",
+      "description": "BMI",
+      "data": {
+        "source": "Observation",
+        "code": "e3c2efba-3ec9-4029-9bd9-716948995433",
+        "dataType": "Text",
+        "field": ""
+      }
+    },
+    {
+      "key": "lcbs_art_status",
+      "label": "Followup Status",
+      "description": "Followup Status",
+      "data": {
+        "source": "Observation",
+        "code": "222f64a8-a603-4d2e-b70e-2d90b622bb04",
+        "dataType": "Coded",
+        "dataMapping": [
+          {
+            "code": "160429AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "5"
+          },
+          {
+            "code": "162904AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "6"
+          },
+          {
+            "code": "159492AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "0"
+          },
+          {
+            "code": "1260AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "1"
+          },
+          {
+            "code": "27e28afa-b4a6-44e0-b331-ea7250121a0e",
+            "value": "2"
+          },
+          {
+            "code": "160431AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "3"
+          },
+          {
+            "code": "160432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "value": "4"
+          }
+        ],
+        "field": ""
+      }
+    }
+  ]
+}
